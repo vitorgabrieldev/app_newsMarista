@@ -1,0 +1,24 @@
+========== || Informações sobre o trabalho || ==========
+
+
+
+========================================================
+> Cor =>
+    1° = #003d7b
+    2° = #336495
+    3° = #4f9bc4
+    4° = #fafafa (fundo)
+
+    ** Utilizar :root para armazenar as cores da pagina **
+
+========================================================
+
+> Funções =>
+    João = Estrutura do index, inteligar as paginas + 2 paginas de noticias;
+    Laya = Escolha da Cor + 2 paginas de noticias;
+    Larissa = 2 paginas de noticias;
+    Quezia = 2 paginas de noticias;
+    Talyta = 2 paginas de noticias;
+    vitor = Layout/design + 2 paginas de noticias;
+
+========================================================
