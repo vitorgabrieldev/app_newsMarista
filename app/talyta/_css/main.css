@@ -1,0 +1,12 @@
+forder{
+    font-family: Verdana;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+body{
+    margin: 0;
+}

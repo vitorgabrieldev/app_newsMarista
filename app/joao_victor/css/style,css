@@ -1,0 +1,21 @@
+.content_logo {
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+}
+
+.content_logo i {
+    font-size: 4rem;
+    margin-top: .7rem;
+}
+
+.content_logo h1 {
+    font-size: 2rem;
+    font-family: var(--font-primary);
+}
+
+.content_logo h1:hover,
+.content_logo i:hover {
+    transition: .3s;
+    color: #fefeefb3;
+}
