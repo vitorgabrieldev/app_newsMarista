@@ -1,24 +1,67 @@
 ========== || Informações sobre o trabalho || ==========
 
-
+-> valor: 2,5 possíveis;
+-> Data de entrega: 11 de novembro de 2022 às 23:59;
 
 ========================================================
-> Cor =>
+> Cor(Layla) =>
+
     1° = #003d7b
     2° = #336495
     3° = #4f9bc4
     4° = #fafafa (fundo)
 
-    ** Utilizar :root para armazenar as cores da pagina **
+    ** Utilizar :root para armazenar as cores da pagina no index.html **
 
 ========================================================
 
-> Funções =>
-    João = Estrutura do index, inteligar as paginas + 2 paginas de noticias;
-    Laya = Escolha da Cor + 2 paginas de noticias;
+> Funções dos participantes =>
+
+    João = 2 paginas de noticias;
+    Laya = Cores + 2 paginas de noticias;
     Larissa = 2 paginas de noticias;
+    vitor = 2 paginas de noticias + index.html + info.txt;
     Quezia = 2 paginas de noticias;
     Talyta = 2 paginas de noticias;
-    vitor = Layout/design + 2 paginas de noticias;
 
 ========================================================
+
+> Intruções da atividade -> 
+
+-> Definir paleta de cores de base para todo o website. Pelo menos 3 cores. Podem escolher mais. Essas cores já devem aparecer nas páginas desenvolvidas nessa primeira entrega.
+
+-> Definir as páginas que serão construídas. Cada membro do grupo deverá desenvolver 2 páginas (no mínimo). Por exemplo, num grupo com 4 pessoas, deverão ser entregues 9 páginas, sendo 2 de cada membro, mais a página index.html. Não precisa ter conteúdo nas páginas. No entanto, TODAS as páginas deverão ter rodapés (Footers) com o nome do programador responsável por construir aquela página.
+
+-> As entregas serão feitas hoje, e só hoje. Caso um grupo ou membro precise fazer a entrega depois, o trabalho deixa de valer 25 e passa a valer 15. Só receberá nota cheia, ou seja, 25, o grupo e os seus respectivos membros que entregarem o trabalho na data definida de entrega.
+Cada grupo, tem uma pasta com o nome do caderno já definido. Basta subir os arquivos para dentro da pasta correta, relacionada ao seu grupo.
+
+Em anexo, o arquivo com orientações.
+
+Coloquem no arquivo index.html, um comentário logo depois do elemento <body> informando as cores escolhidas pra o projeto e o nome dos membros do grupo. 
+Por exemplo, vai ficar assim:
+
+<body>
+
+<!--
+
+Membros: Joãozinho, Mariazinha, Fernandinho, Patricinha
+
+cor1 : código
+
+cor2: código
+
+cor3: código
+
+-->
+
+==========================================================
+
+> More =>
+
+    * Código do trabalho(github):
+        https://github.com/vitorgabrieldev/app_newsMarista
+
+    * Link website hosp(github pages):
+        https://vitorgabrieldev.github.io/app_newsMarista
+
+==========================================================
