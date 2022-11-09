@@ -1,0 +1,38 @@
+body, hmtl {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    background: #4f9bc4;
+    padding: 1.3rem;
+}
+
+header a {
+    font-size: 1.7rem;
+    font-family: monospace;
+    color: #fefefe;
+    transition: .3s;
+}
+
+header a:hover {
+    color: rgba(250, 250, 250, 0.649);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    margin-top: 32%;
+    background: #4f9bc4;
+    padding: 1.3rem;
+}
+
+footer h1 {
+    color: #fefefe;
+    font-family: monospace;
+    letter-spacing: .01rem;
+}
