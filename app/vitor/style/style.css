@@ -1,0 +1,30 @@
+.container_news {
+    margin: 2rem;
+    padding: 1.3rem;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    text-align: center;
+}
+
+.title_news {
+    font-family: monospace;
+    font-size: 3rem;
+}
+.container {
+    font-size: 1.6rem;
+    font-family: monospace;
+    text-align: left;
+}
+
+.container:last-child {
+    margin-bottom: 5rem;
+}
+
+.container_img {
+    width: 100%;
+    text-align: center;
+}
+
+.container_img img {
+    border-radius: 12px;
+}

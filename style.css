@@ -18,7 +18,9 @@ body, hmtl {
     padding: 0;
     box-sizing: border-box;
 
-    background: var(--color-background);
+    /* background: var(--color-background); */
+
+    background-image: url(./app/media/img_city_Londirna.jfif);
 
 }
 * {
@@ -61,19 +63,42 @@ body, hmtl {
 
 
 .container_main {
-    background: var(--color-secondary);
-    margin-top: -17px;
-    padding: .3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.container_nav ul {
-    display: flex;
-    gap: 2rem;
+.container_nav {
+    width: 20%;
+    background: var(--color-secondary);
+    height: 100%;
+    padding: 2rem 0 2rem 0;
 }
+
+.icons {
+    background: rgba(0, 0, 0, 0.404);
+    backdrop-filter: blur(.5px);
+    padding: 1.5rem;
+    display: grid;
+    place-content: center;
+}
+
+.icons i {
+    font-size: 3rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    transform: scale(.9) rotate(360deg);
+    color: #bbbbbbdc;
+} 
+
 
 .item_list {
     list-style: none;
-    text-decoration: none;
+    margin: .1rem;
 }
 
 .item_list a {
@@ -81,11 +106,119 @@ body, hmtl {
     font-size: 1.5rem;
     transition: .3s;
     border: .1rem solid transparent;
-    border-radius: 12px;
     padding: .3rem;
+    text-decoration: none;
 }
 
 .item_list a:hover {
-    border: .1rem solid var(--color-tertiary);
-    background: var(--color-secondary);
+    color: #cfcccc;
+    background: rgba(41, 38, 38, 0.103);
 }
+
+.item_list::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2rem;
+    background: rgb(255, 255, 255);
+    transition: .1s;
+}
+
+.item_list:hover::before {
+    width: 2px;
+}
+
+.item_list i {
+    color: #c0bdbd;
+}
+
+.container_footer {
+    background: #003d7b;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.container_footer h1 {
+    font-size: 1.2rem;
+    font-family: var(--font-primary);
+}
+
+.container_logoMarista {
+    display: flex;
+    align-items: center;
+    margin-top: -19px;
+    background: #04315e;
+    border-radius: 5px;
+}
+
+.container_logoMarista img {
+    width: 7rem;
+    border-radius: 5px;
+    animation: img_animation infinite ease-in-out 10s;
+    animation-delay: 5s;
+}
+
+::-webkit-scrollbar-button {
+    background: red;
+}
+
+@keyframes img_animation {
+    10% {
+        transform: scale(.9) translateX(-300%) skewX(5deg)  rotate(720deg);
+    }
+    20% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.btns_functions {
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    width: 15%;
+    height: 100%;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+
+.btns_functions i {
+    font-size: 2rem;
+    transition: .3s;
+}
+
+
+.btns_functions i:hover {
+    transform: scale(1.5);
+    color: #fefefed7;
+    cursor: pointer;
+    background: rgb(39, 37, 37);
+    padding: .3rem;
+    border-radius: 5px;
+}
+
+.btns_functions i:nth-child(1):hover {
+    transform: rotate(360deg) scale(1.5);
+}
+
+/* body::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(92, 91, 91);    
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgba(5, 168, 40, 0);       
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 30, 32);    
+    /* border-radius: 20px;        */
+    border: 3px solid rgba(255, 166, 0, 0); 
+} */
