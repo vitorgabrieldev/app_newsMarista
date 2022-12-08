@@ -70,7 +70,7 @@ body, hmtl {
 }
 
 .container_nav {
-    width: 20%;
+    width: 30%;
     background: var(--color-secondary);
     height: 100%;
     padding: 2rem 0 2rem 0;
@@ -139,6 +139,9 @@ body, hmtl {
     text-align: center;
     position: fixed;
     bottom: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .container_footer h1 {
@@ -167,7 +170,7 @@ body, hmtl {
 
 @keyframes img_animation {
     10% {
-        transform: scale(.9) translateX(-300%) skewX(5deg)  rotate(720deg);
+        transform: scale(.9) translateX(-100%) skewX(5deg)  rotate(720deg);
     }
     20% {
         transform: skewX(0deg);
@@ -208,17 +211,67 @@ body, hmtl {
     transform: rotate(360deg) scale(1.5);
 }
 
-/* body::-webkit-scrollbar {
-    width: 10px;
-    background: rgb(92, 91, 91);    
+@media screen and (max-width: 950px) {
+    .btns_functions {
+        display: none
+    }
 }
-  
-body::-webkit-scrollbar-track {
-    background: rgba(5, 168, 40, 0);       
+
+@media screen and (max-width: 800px) {
+    .container_logoMarista {
+        display: none;
+    }
+
+    .container_header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .item_list a {
+        font-size: 1.2rem;
+    }
+
+    .icons {
+        place-content: start;
+    }
 }
-  
-body::-webkit-scrollbar-thumb {
-    background-color: rgb(30, 30, 32);    
-    /* border-radius: 20px;        */
-    border: 3px solid rgba(255, 166, 0, 0); 
-} */
+
+
+@media screen and (max-width: 660px) {
+    .container_footer > h1 {
+        font-size: 1rem;
+    }
+
+    .container_footer {
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 6rem;
+    }
+    .icons {
+        padding-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .icons {
+        display: none;
+    }
+    .container_main > nav{
+        width: 100%;
+        height: 100%;
+        padding-right: 3rem;
+    }
+    .container_nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .container_nav ul  li  i {
+        display: none;
+    }
+    .container_nav > ul > li {
+        border: 1px solid #fefefe;
+        border-radius: 12px;
+        display: grid;
+        place-content: center;
+    }
+}
